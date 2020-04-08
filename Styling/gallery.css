@@ -1,0 +1,108 @@
+@import "popup.css";
+@import "modal.css";
+
+@-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+    20% { -webkit-transform: scaleY(1.0) }
+  }
+  
+  @keyframes sk-stretchdelay {
+    0%, 40%, 100% { 
+      transform: scaleY(0.4);
+      -webkit-transform: scaleY(0.4);
+    }  20% { 
+      transform: scaleY(1.0);
+      -webkit-transform: scaleY(1.0);
+    }
+  }
+  .row {
+        justify-content: center;
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+      -ms-flex: 25%; /* IE10 */
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+  }
+  
+  .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+  }
+footer {
+background-color: #87CEEB;
+width: 100%;
+margin-top: 40px;
+padding: 40px 0;
+color: white;
+text-align: center; }
+footer h1 {
+    font-size: 40px;
+    text-align: center; }
+footer ul {
+    margin: 0 auto; }
+    footer ul li {
+    list-style-type: none;
+    padding: 20px 0 0 0px;
+    float: none; }
+    footer ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px; }
+        footer ul li a:hover {
+        border-bottom: 3px solid black; }
+  
+  @media (max-width: 1024px) {
+    .logo {
+      position: fixed;
+      top: 0;
+      font-size: 15px;
+      margin-top: 16px; 
+      color: white;}
+    nav ul {
+      background: #000; 
+      color: white;
+      }
+      nav ul li a{
+          color: white;
+      }
+    nav.black ul {
+      background: #000; }
+      nav.black ul li a{
+          color: white;
+      }
+    .showing {
+      max-height: 34em; }
+    nav ul li {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 24px;
+      text-align: center; }
+    .menu-icon {
+      display: block; } }
+  
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+      .column {
+          -ms-flex: 50%;
+          flex: 50%;
+          max-width: 50%;
+      }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+      .column {
+          -ms-flex: 100%;
+          flex: 100%;
+          max-width: 100%;
+      }
+  }

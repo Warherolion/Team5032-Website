@@ -1,0 +1,70 @@
+body
+  overflow-x: hidden
+
+div#hero
+  position: relative
+  top: 15vh
+  left: 20vw
+
+section#Spons
+  width: 100%
+  margin-left: 4.3%
+
+  p
+    font-size: 17px
+    letter-spacing: 1px
+
+    &.head
+      font-size: 54px
+
+div.spon
+  width: 50%
+  margin: 7% auto
+
+  img
+    padding-right: 100px
+    padding-top: 50px
+
+footer
+  margin-top: 100vh
+  background-color: #87CEEB
+  width: 100%
+  padding: 40px 0
+  color: white
+  text-align: center
+
+  h1
+    font-size: 40px
+    text-align: center
+
+  ul
+    margin: 0 auto
+
+    li
+      list-style-type: none
+      padding: 20px 0 0 0px
+      float: none
+
+      a
+        text-decoration: none
+        color: white
+        font-size: 20px
+
+        &:hover
+          border-bottom: 3px solid black
+
+@media screen and (max-width: 560px)
+  div#hero
+    position: relative
+    top: 0vh
+    left: 0vw
+
+  section#Spons p
+    text-align: center
+
+  div.spon
+    width: 50%
+    margin: 17% auto
+
+  footer
+    margin-top: 160vh

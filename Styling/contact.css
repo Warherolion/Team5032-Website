@@ -1,0 +1,100 @@
+#contact {
+  padding-top: 100px; }
+
+#contact p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 0 30px; }
+
+#contact p#footnote {
+  padding-top: 50px; }
+
+div.ContactWrapper {
+  height: 40%;
+  padding: 20px; }
+
+div.ContactWrapper h1 {
+  font-size: 40px; }
+
+div.ContactWrapper h1, div.ContactWrapper p {
+  text-align: center; }
+
+div.ContactWrapper div.contact-Form {
+  border-radius: 10px; }
+
+div.ContactWrapper div.contact-Form form {
+  text-align: center; }
+
+div.ContactWrapper div.contact-Form form input {
+  background-color: white;
+  border-bottom: 2px solid #7285A5;
+  color: black;
+  font-size: 14px;
+  width: 20%;
+  padding: 20px;
+  margin-top: 10px; }
+
+div.ContactWrapper div.contact-Form form button {
+  border-bottom: 2px solid #7285A5;
+  font-size: 14px;
+  width: 20%;
+  padding: 20px;
+  margin-top: 10px; }
+
+div.ContactWrapper div.contact-Form form textarea {
+  color: black;
+  border-bottom: 2px solid #7285A5;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  width: 44%;
+  height: 200px; }
+
+footer {
+  background-color: #87CEEB;
+  width: 100%;
+  padding: 40px 0;
+  color: white;
+  text-align: center; }
+  footer h1 {
+    font-size: 40px;}
+  footer ul {
+    margin: 0 auto; }
+    footer ul li {
+      list-style-type: none;
+      padding: 20px 0 0 0px;
+      float: none; }
+      footer ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px; }
+        footer ul li a:hover {
+          border-bottom: 3px solid black; }
+
+
+@media screen and (max-width: 1650px){
+  div.ContactWrapper div.contact-Form form textarea {
+    width: 44.5%;
+  }
+}
+@media screen and (max-width: 1550px){
+  div.ContactWrapper div.contact-Form form textarea {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 1250px){
+  div.ContactWrapper div.contact-Form form textarea {
+    width: 46%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  div.ContactWrapper {
+    padding: 0;
+    text-align: left; }
+  div.ContactWrapper div.contact-Form form input {
+    border: 2px solid black;
+    font-size: 14px;
+    width: 75%;
+    margin-top: 10px; }
+  div.ContactWrapper div.contact-Form form textarea {
+    width: 78%; } }

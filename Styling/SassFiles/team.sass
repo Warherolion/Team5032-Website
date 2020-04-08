@@ -1,0 +1,168 @@
+body
+  overflow-x: hidden
+
+section#team
+  margin-bottom: 100px
+
+div
+  &.team
+    max-width: 855px
+    margin: 60px auto
+    text-align: center
+
+    h1
+      text-align: center
+      font-size: 40px
+
+  &.textUnderline
+    text-align: center
+
+    p
+      font-size: 25px
+      color: black
+
+svg
+  fill: #f5f5f5
+  display: block
+  margin: 0 auto
+  height: 100%
+
+div.window
+  border-radius: 50%
+  width: 150px
+  height: 150px
+  margin: 20px auto
+  background-color: #4583B0
+
+section a
+  color: black
+  text-decoration: none
+
+div.Cont
+  margin: 0 auto
+  background-color: black
+
+.modal
+  display: none
+  position: fixed
+  z-index: 1
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  overflow: auto
+  background-color: black
+  background-color: rgba(0, 0, 0, 0.4)
+
+.modal-content
+  background-color: #fefefe
+  margin: 5% auto
+  padding: 20px
+  border: 1px solid #888
+  width: 80%
+
+.close
+  color: #aaa
+  float: right
+  font-size: 28px
+  font-weight: bold
+
+  &:hover, &:focus
+    color: black
+    text-decoration: none
+    cursor: pointer
+
+@-webkit-keyframes animatetop
+  from
+    top: -300px
+    opacity: 0
+
+  to
+    top: 0
+    opacity: 1
+
+@keyframes animatetop
+  from
+    top: -300px
+    opacity: 0
+
+  to
+    top: 0
+    opacity: 1
+
+.modal-header
+  padding: 2px 16px
+  color: black
+
+  h1
+    font-size: 40px
+
+.modal-body
+  height: 70%
+  padding: 2px 16px
+
+  img
+    width: 70%
+    display: block
+    margin: 0 auto
+
+.modal-footer
+  padding: 20px 60px
+  background-color: #5cb85c
+  color: white
+
+footer
+  background-color: #87CEEB
+  width: 100%
+  padding: 40px 0
+  color: white
+  text-align: center
+
+  h1
+    font-size: 40px
+    text-align: center
+
+  ul
+    margin: 0 auto
+
+    li
+      list-style-type: none
+      padding: 20px 0 0 0px
+      float: none
+
+      a
+        text-decoration: none
+        color: white
+        font-size: 20px
+
+        &:hover
+          border-bottom: 3px solid black
+
+  margin-top: 85vh
+
+@media (max-width: 800px)
+  footer
+    margin-top: 120vh
+
+@media (max-height: 900px)
+  footer
+    margin-top: 120vh
+
+@media (max-height: 700px)
+  footer
+    margin-top: 120vh
+
+@media (max-width: 600px)
+  footer
+    margin-top: 150vh
+
+@media (max-width: 550px)
+  footer
+    margin-top: 210vh
+
+@media (max-width: 400px)
+  .input-flex-container
+    width: 300px
+
+    .modal-content
+      width: 100%

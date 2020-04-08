@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Ranvir Singh">
+    <!--Website programmed and developed by Ranvir Singh of Falcons 5032 FRC team, all photos that include faces have been taken with concent and
+    by 5030 robotics club members 
+    -->
+    <title>Falcons 5032</title>
+	<link rel="stylesheet" href="Styling/Skeleton/skeleton-min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Styling/baseStyles/base.css">
+    <link rel="stylesheet" href="Styling/docs.css">
+    <!--Timeline code taken from Clay jensen from code pen https://codepen.io/cjl750/pen/MXvYmg -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Team 5032</h1>
+        </div>
+		<!--Navigation bar-->
+		<div class="container" onclick="navHide(); hamAnim(this)">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</div>
+        <nav class="headNav">
+            <ul>
+                <li><a href="index.html" class="hover">Home</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="sponsors.html">Sponsors</a></li>
+                <li class="active"><a href="">Docs</a></liclass="active">
+				<li><a href="contact.html">Contact us</a></li>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+            </ul>
+        </nav>
+    </header>
+    <section id="timeline">
+        <h2>Build Log, <span>January - March</span></h2>
+		<div class="flex-parent">
+			<div class="input-flex-container">
+				<input type="radio" name="timeline-dot" data-description="Jan05" checked>
+				<div class="dot-info" data-description="Jan05">
+					<span class="year">Jan 05</span>
+					<span class="label">Kickoff</span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="Jan10">
+				<div class="dot-info" data-description="Jan10">
+					<span class="year">Jan 10</span>
+					<span class="label">Design finished</span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="Jan28">
+				<div class="dot-info" data-description="1930">
+					<span class="year">Jan 28</span>
+					<span class="label">Chasis Finished</span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="1940">
+				<div class="dot-info" data-description="1940">
+					<span class="year">Feb 05</span>
+					<span class="label">N/A</span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="1950">
+				<div class="dot-info" data-description="1950">
+					<span class="year">N/A</span>
+					<span class="label">N/A</span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="1960">
+				<div class="dot-info" data-description="1960">
+					<span class="year">N/A</span>
+					<span class="label">N/A</span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="1970">
+				<div class="dot-info" data-description="1970">
+					<span class="year">N/A</span>
+					<span class="label">N/A</span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="1980">
+				<div class="dot-info" data-description="1980">
+					<span class="year">N/A</span>
+					<span class="label">N/A</span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="1990">
+				<div class="dot-info" data-description="1990">
+					<span class="year">N/A</span>
+					<span class="label">N/A</span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="2000">
+				<div class="dot-info" data-description="2000">
+					<span class="year">N/A</span>
+					<span class="label">N/A</span>
+				</div>
+				<div id="timeline-descriptions-wrapper">
+					<p data-description="Jan05">Kickoff begins we started with some basic designs and whatnot</p>
+					<p data-description="Jan10">We finished the designs of the robot, they can be viewed below</p>
+					<p data-description="Jan28">Chasis has been completed machining and assembled </p>
+					<p data-description="1940">Not reached this point yet</p>
+					<p data-description="1950">Not reached this point yet</p>
+					<p data-description="1960">Not reached this point yet</p>
+					<p data-description="1970">Not reached this point yet</p>
+					<p data-description="1980">Not reached this point yet</p>
+					<p data-description="1990">Not reached this point yet</p>
+					<p data-description="2000">Not reached this point yet</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="docs">
+		<p class="Head">Documentation</p>
+		
+		<div class="designs">
+			<p>Designs</p>
+			<ul>
+				<li><a href="">Robot CAD</a></li>
+				<li><a href="">Shooter CAD</a></li>
+				<li><a href="">Drive train CAD</a></li>
+				<li><a href="">Electrical Design</a></li>
+			</ul>
+		</div>
+	</section>
+	<footer class="item" data-aos="fade-up">
+        <section id="footer">
+            <h1>
+                Socials
+            </h1>
+            <ul>
+                <li>
+                    <a href="https://www.thebluealliance.com/team/5032">
+                        FRC Team Info
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Twitter
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/frcteam5032/?hl=en">
+                        Instagram
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </footer>
+	<script>
+		function hamAnim(x) {
+		  x.classList.toggle("change");
+		}
+	</script>
+	<script src="base.js"></script>	
+</body>
